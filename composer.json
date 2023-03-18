@@ -1,0 +1,16 @@
+{
+  "name": "infinymini/infinystub",
+  "type": "project",
+  "description": "The InfinyHost minimal PHP framework.",
+  "keywords": ["framework", "infinyhost"],
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "App\\": "app/",
+      "Libs\\": "libs/"
+    }
+  },
+  "require": {
+    "infinyhost/infinymini": "@dev"
+  }
+}
